@@ -4,7 +4,7 @@
   box-sizing:  border-box;
   font-family: arial;
 	}
-  
+
 /* Main section */
 .square2 {
   position: absolute;
@@ -62,9 +62,12 @@ button {
   height: 28px;
   left: 397px;
   top: 315px;
-
   background: #FFFFFF;
   border-radius: 8px;
+}
+
+button:hover {
+  background-color: rgb(247, 114, 236);
 }
 
 /* About section */
@@ -170,6 +173,12 @@ button {
   border-radius: 18px;
 }
 
+.block1:hover {
+  background-color: rgb(220, 213, 210);
+  font-size: 15px;
+  box-shadow:  0 0 20px #e07377;
+}
+
 .block2 {
   position: absolute;
   width: 196px;
@@ -180,6 +189,12 @@ button {
   border-radius: 18px;
 }
 
+.block2:hover {
+  background-color: rgb(220, 213, 210);
+  font-size: 15px;
+  box-shadow:  0 0 20px #e07377;
+}
+
 .block3 {
   position: absolute;
   width: 196px;
@@ -188,6 +203,11 @@ button {
   top: 935px;
   background-color: #79E6C9;
   border-radius: 18px;
+}
+.block3:hover {
+  background-color: rgb(220, 213, 210);
+  font-size: 15px;
+  box-shadow:  0 0 20px #e07377;
 }
 
 .block4 {
@@ -200,6 +220,12 @@ button {
   border-radius: 18px;
 }
 
+.block4:hover {
+  background-color: rgb(220, 213, 210);
+  font-size: 15px;
+  box-shadow:  0 0 20px #e07377;
+}
+
 .block5 {
   position: absolute;
   width: 196px;
@@ -210,6 +236,11 @@ button {
   border-radius: 18px;
 }
 
+.block5:hover {
+  background-color: rgb(220, 213, 210);
+  font-size: 15px;
+  box-shadow:  0 0 20px #e07377;
+}
 .block6 {
   position: absolute;
   width: 196px;
@@ -218,6 +249,12 @@ button {
   top: 1155px;
   background-color: #E485E9;
   border-radius: 18px;
+}
+
+.block6:hover {
+  background-color: rgb(220, 213, 210);
+  font-size: 15px;
+  box-shadow:  0 0 20px #e07377;
 }
 
 .textBlock {
@@ -255,6 +292,10 @@ button {
   top: 1573px;
   position: absolute;
 }
+.blockGray:hover {
+  background-color: #ada29b;
+  box-shadow:  0 0 20px rgb(237, 240, 92);
+}
 .blockBrown {
   position: absolute;
   width: 196px;
@@ -264,6 +305,10 @@ button {
   background-color: #786D69;
   border-radius: 18px;
 }
+.blockBrown:hover {
+  background-color: #ada29b;
+  box-shadow:  0 0 20px rgb(237, 240, 92);
+}
 .blockTeal {
   position: absolute;
   width: 196px;
@@ -272,6 +317,10 @@ button {
   top: 1573px;
   background-color: #488E9D;
   border-radius: 18px;
+}
+.blockTeal:hover {
+  background-color: #ada29b;
+  box-shadow:  0 0 20px rgb(237, 240, 92);
 }
 
 /* Experience section */
